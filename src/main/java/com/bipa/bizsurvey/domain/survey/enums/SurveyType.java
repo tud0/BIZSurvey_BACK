@@ -11,6 +11,7 @@ public enum SurveyType {
 
     private final String value;
 
+
     SurveyType(String value) {
         this.value = value;
     }

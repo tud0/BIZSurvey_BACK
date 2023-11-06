@@ -26,6 +26,7 @@ public class Claim extends BaseEntity {
     @Column(nullable = false)
     private ClaimType claimType;
 
+
     @Column(nullable = false)
     private Long logicalKey;
     // 논리적 키

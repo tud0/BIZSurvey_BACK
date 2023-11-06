@@ -21,6 +21,7 @@ public class SharedList extends BaseEntity {
     @Column(name = "shared_list_id")
     private Long id;
 
+
     @Column(nullable = false)
     private String url;
 

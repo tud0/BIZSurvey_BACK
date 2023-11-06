@@ -14,6 +14,7 @@ import javax.persistence.*;
 @Getter
 @Table(name = "contact")
 public class Contact extends BaseEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "contact_id")

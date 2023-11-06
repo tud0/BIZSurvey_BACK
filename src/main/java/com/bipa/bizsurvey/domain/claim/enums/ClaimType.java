@@ -10,6 +10,7 @@ public enum ClaimType {
 
     private final String value;
 
+
     ClaimType(String value) {
         this.value = value;
     }

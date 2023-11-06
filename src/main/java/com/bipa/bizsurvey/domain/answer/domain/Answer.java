@@ -21,6 +21,7 @@ public class Answer extends BaseEntity {
     @Column(name = "answer_id")
     private Long id;
 
+
     @Column(nullable = false)
     private String surveyAnswer;
 

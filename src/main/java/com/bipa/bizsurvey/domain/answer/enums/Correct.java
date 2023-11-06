@@ -12,6 +12,7 @@ public enum Correct {
 
     private final String value;
 
+
     Correct(String value) {
         this.value = value;
     }

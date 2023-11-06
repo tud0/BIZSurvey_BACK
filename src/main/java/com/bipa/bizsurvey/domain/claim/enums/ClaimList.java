@@ -16,6 +16,7 @@ public enum ClaimList {
 
     private final String value;
 
+
     ClaimList(String value){
         this.value = value;
     }

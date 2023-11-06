@@ -15,6 +15,7 @@ import javax.persistence.*;
 @Table(name = "workspace")
 public class Workspace extends BaseEntity {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "workspace_id")

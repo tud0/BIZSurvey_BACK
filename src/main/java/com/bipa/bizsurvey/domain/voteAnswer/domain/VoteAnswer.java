@@ -13,6 +13,7 @@ import javax.persistence.*;
 @Table(name = "vote_answer")
 public class VoteAnswer {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "vote_answer_id")

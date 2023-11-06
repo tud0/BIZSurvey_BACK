@@ -25,6 +25,7 @@ public class Admin extends BaseEntity {
     @Column(nullable = false)
     private AdminType type;
 
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;

@@ -17,6 +17,7 @@ import javax.persistence.*;
 @Table(name = "survey")
 public class Survey extends BaseEntity {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "survey_id")

@@ -14,6 +14,7 @@ import javax.persistence.*;
 @Table(name = "vote_user_answer")
 public class VoteUserAnswer {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "vote_user_answer_id")

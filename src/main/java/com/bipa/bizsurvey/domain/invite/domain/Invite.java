@@ -15,6 +15,7 @@ import javax.persistence.*;
 @Table(name = "invite")
 public class Invite extends BaseEntity {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "invite_id")
